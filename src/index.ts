@@ -15,3 +15,5 @@ export type Arrayable<T> = T | Array<T>;
 export type ArrayType<T extends readonly unknown[]> = T extends readonly (infer ElementType)[]
   ? ElementType
   : never;
+
+export type StringWithAutoComplete<T> = T | (string & Record<never, never>);

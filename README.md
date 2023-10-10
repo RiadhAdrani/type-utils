@@ -2,4 +2,4 @@
 
 Javascript utility types.
 
-Check documentation [`here`](https://riadhadrani.github.io/utility-js/types.html)
+Check documentation [`here`](https://riadhadrani.github.io/utils/types.html)
